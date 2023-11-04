@@ -1,0 +1,61 @@
+body{
+    background: rgb(34, 15, 15);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35rem;
+}
+#user-input{
+    height: 50px;
+    width: 450px;
+    padding: 0.9rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+}
+button{
+    height: 40px;
+    width: 90px;
+    margin: 0.5rem;
+    cursor: progress;
+}
+button:hover{
+    background-color: rgb(207, 177, 177);
+    color: rgb(8, 50, 87);
+}
+#chat-container{
+    height: auto;
+    color: white;
+    height: auto;
+    position: relative;
+    bottom: 25rem;
+}
+#right{
+    position: relative;
+    left: 35rem;
+    bottom: 1.2em;
+    width: 30rem;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#left{
+    position: relative;
+    right: 3rem;
+    width: 30rem;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sticky{
+    position: sticky;
+    bottom: 1rem;
+    right: 10rem;
+}
+#heading{
+    position: -webkit-sticky;
+}
+#app{
+    color: rgb(163, 103, 24);
+    position: relative;
+    bottom: 35rem;
+    left: 18rem;
+}
